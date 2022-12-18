@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "lint": "next lint"
   },
   "dependencies": {
@@ -18,8 +19,6 @@
     "react-card-flip": "^1.2.0",
     "react-dom": "18.2.0",
     "react-material-ui-carousel": "^3.4.2",
-    "react-responsive-carousel": "^3.2.23",
-    "react-spotify-embed": "^1.0.4",
     "sharp": "^0.31.2",
     "spotify-web-api-js": "^1.5.2"
   }
