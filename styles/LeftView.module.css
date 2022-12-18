@@ -1,0 +1,13 @@
+.leftView{
+  display: flex;
+  transform: perspective(400px) rotateY(5deg);
+  flex-direction: column;
+  max-width: 33%;
+  justify-content: flex-start;
+}
+
+.avatarImage{
+  margin-left: 2rem;
+  height: 600px;
+  width: auto;
+}

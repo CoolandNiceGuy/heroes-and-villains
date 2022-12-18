@@ -1,0 +1,87 @@
+.flipCard{
+  position: relative;
+  margin: 1rem;
+}
+
+.mobileComicImage{
+  object-fit: contain;
+}
+
+.flipCardFront{
+  display: relative;
+  height: 70vh;
+}
+
+.flipCardBack{
+  background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.flipCardBackMetro{
+  background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.cardSongContainer{
+  border: solid white 2px;
+  color: white;
+  border-radius: 5px;
+  font-family: helvetica;
+  text-align: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.songName{
+  color: white;
+  margin: .25rem;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.features{
+  font-size: 10px;
+  margin: .25rem;
+}
+
+.metroContainer{
+  color: white;
+  display: flex;
+  margin-bottom: .25rem;
+  width: 50%;
+}
+
+.metroContainer > .songName {
+  margin-top: 0;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 5px;
+  border: solid white 2px;
+}
+
+.artistPic{
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}
+
+.artistName{
+  margin-bottom: 1.5rem;
+  font-family: tarrget;
+  font-size: 24px;
+}
+
+.boominImage{
+  width: 50%;
+  display: block;
+  margin-left: 25%;
+  margin-bottom: 5%;
+}

@@ -1,0 +1,47 @@
+.rightView{
+  width: 33%;
+}
+
+.artistView{
+  width: 95%;
+  height: 90%;
+  font-family: Helvetica, sans-serif;
+}
+
+.embedContainer{
+  padding-right: 3rem;
+  list-style-type: none;
+}
+
+.doubleColEmbedContainer{
+  padding-right: 3rem;
+  list-style-type: none;
+  columns: 2;
+}
+
+.spotify{
+  background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(50, 50, 50, 0.8) 0%, rgba(80, 80, 80, 0.2) );
+  padding: 1rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: .5rem;
+}
+
+.scrollContainer{
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.songLink {
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  margin-left: 1rem;
+}
+
+.spotify:hover{
+  background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(80, 80, 80, 0.8) 0%, rgba(150, 150, 150, 0.2) );
+}

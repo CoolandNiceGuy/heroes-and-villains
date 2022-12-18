@@ -1,0 +1,26 @@
+.fighterName{
+  font-size: 54px;
+  color: greenyellow;
+  background-color: red;
+  margin-top: 3rem;
+  /* transform: perspective(400px) rotateZ(-5deg); */
+  box-shadow: 15px 55px 15px -25px rgba(0,0,0,0.79);
+  font-family: tarrget;
+  width: 33vw;
+  height: 98px;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  animation: .25s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}

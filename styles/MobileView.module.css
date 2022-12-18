@@ -1,0 +1,23 @@
+.mobileView{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+
+.mobileTitle{
+  font-family: tarrget;
+  font-size: 20px;
+  color: red;
+}
+
+.footerText{
+  font-family: helvetica;
+  margin-top: 15%;
+}
+
+@media only screen and (min-width: 821px) {
+  .mobileView{
+    display: none;
+  }
+}

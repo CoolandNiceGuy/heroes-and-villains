@@ -1,0 +1,23 @@
+.thumbNail{
+  object-fit: cover;
+  width: 90px;
+  height: 120px;
+  border: solid red 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  flex-basis: 33.333333%;
+}
+
+.thumbNail:hover{
+  border: solid greenyellow 5px;
+}
+
+.selected{
+  object-fit: cover;
+  width: 90px;
+  height: 120px;
+  border: solid greenyellow 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  flex-basis: 33.333333%;
+}
